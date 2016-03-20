@@ -89,8 +89,8 @@ public class DateItem {
         this.month = month;
 
         if (minYear == 0) {
-            minYear = new JDF().getIranianYear();
-            maxYear = minYear + 10;
+            minYear = new JDF().getIranianYear()-2;
+            maxYear = minYear + 6;
         }
     }
 
